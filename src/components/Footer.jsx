@@ -67,15 +67,16 @@ const Footer = () => {
           </div>
 
           <div className="mt-5 flex flex-shrink-0 items-center">
-            <a href="https://x.com/memescoin?s=21&t=UEB_WMtZkqwNoNKZifsE4A">
-              <img
-                className="mr-2 h-5 w-5 sm:h-7 sm:w-7"
-                src={X}
-                alt="MEME_Generate"
-              />
-              <span className="ml-2 text-sm tracking-tight sm:ml-3 sm:text-lg">
-                X
-              </span>
+            <img
+              className="mr-2 h-5 w-5 sm:h-7 sm:w-7"
+              src={X}
+              alt="MEME_Generate"
+            />
+            <a
+              href="https://x.com/memescoin?s=21&t=UEB_WMtZkqwNoNKZifsE4A"
+              className="ml-2 text-sm tracking-tight sm:ml-3 sm:text-lg"
+            >
+              <span>X</span>
             </a>
           </div>
           <div className="mt-5 flex flex-shrink-0 items-center">
